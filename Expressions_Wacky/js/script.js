@@ -29,6 +29,20 @@ while ((minHDs*8)%hDEaters != 0){
 	minHDs++;
 };
 
-//Calculate the amount of buns used
+var bunsNeeded = 0;
+var x = 0;
+var count = 1;
 
-//Print results
+while (x<1){
+
+//Calculate the amount of buns used
+var bunsNeeded = ((minHDs*8*count)/hDEaters)*bunEaters;
+//Determine if it is divisible by the lowest amount of hot dog buns needed.
+if (bunsNeeded%(minBuns*10)==0){
+	x=1;
+	console.log('You need ' + (minHDs*count) + ' packs of hot dogs, and ' + (bunsNeeded/10) + ' packs of buns.');
+}
+else{
+	count++ ;
+};
+};
