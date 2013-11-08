@@ -1,4 +1,4 @@
-// Steven Swayngim 11/4/2013 Expressions Worksheet
+// Steven Swayngim 11/4/2013 Expressions Wacky
 
 //What is the lowest amount of packs of hotdogs and buns needed to run out at the same time.
 
@@ -19,6 +19,7 @@ var hDEaters = parseInt(adults) + parseInt(kids) + parseInt(pets);
 
 //Find out the lowest amount of packs of buns needed to use up the packs with no extras
 var minBuns = 1;
+//continues to loop(count) until there is no remainder
 while ((minBuns*10)%bunEaters != 0){
 	minBuns++;
 };
@@ -26,6 +27,7 @@ while ((minBuns*10)%bunEaters != 0){
 //Find out the lowest amount of packs of hot dogs needed to use up the packs with no extras
 var minHDs = 1;
 while ((minHDs*8)%hDEaters != 0){
+//continues to loop(count) until there is no remainder
 	minHDs++;
 };
 //set additional variables
