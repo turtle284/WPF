@@ -3,19 +3,19 @@
 //Calculate your monthly expenses
 
 //Prompt asking for electric bill
-
+var electric = prompt('What is your monthly electric bill?');
 
 //Prompt asking for gas bill
-
+var gas = prompt('What is your monthly gas bill?');
 
 //Prompt asking for Monthly Rent
-
+var rent = prompt('What is your monthly rent?');
 
 //Prompt asking for cable bill
-
+var cable = prompt('What is your monthly cable bill?');
 
 //Prompt asking asking for grocery bill
-
+var grocery = prompt('What is your monthly grocery bill?');
 
 //How many people reside in your household
 
