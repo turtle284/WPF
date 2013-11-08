@@ -3,11 +3,13 @@
 //What is the lowest amount of packs of hotdogs and buns needed to run out at the same time.
 
 //Prompt asking how many adults there are. Adults eat a hot dog and a bun
+var adults = prompt('How many adults are there?');
 
 //Prompt asking how many kids there are.  Kids eat a hot dog with no bun.
-
+var kids = prompt('How many kids are there?');
 
 //Prompt asking how many dogs.  Dogs eat hot dog with no bun.
+var pets = prompt('how many pets are there?');
 
 //Set the amount of people eating buns
 
