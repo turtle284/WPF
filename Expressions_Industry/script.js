@@ -21,16 +21,27 @@ vehicleModel(fleet);
 var barrels = prompt('How many barrels of oil do you currently have?');
 
 //Each barrel hold 10gallons.  You need to convert that to Quarts
+var stock = barrels * 10 * 4;
+
+//Set variables for trucks and reefers
+var truck = 0;
+var reefer = 0;
 
 //set patterns to identify each
+var patTruck = /truck/i;
+var patReefer = /reefer/i;
 
 //Loop through the array and count how many of each type of vehicle there is
 
 //Calculate the total amount of oil needed for the fleet (in quarts).  Trucks use 40qtrs reefers use 35.
+var required = (truck*40)+(reefer*35);
 
 //Subtract the amount of oil you currently have
+var total = required - stock;
 
 //Determine the amount of barrels needed
+var order = Math.ceil(total/40);
+
 
 
 //Print out results to the console
