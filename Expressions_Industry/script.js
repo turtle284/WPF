@@ -32,6 +32,15 @@ var patTruck = /truck/i;
 var patReefer = /reefer/i;
 
 //Loop through the array and count how many of each type of vehicle there is
+for (i=0; i<vehicles.length; i++){
+	if (vehicles[i].match(patTruck) != null){
+		truck+=1;
+	}
+	else if (vehicles[i].match(patReefer) != null){
+		reefer+=1;
+	}
+};
+
 
 //Calculate the total amount of oil needed for the fleet (in quarts).  Trucks use 40qtrs reefers use 35.
 var required = (truck*40)+(reefer*35);
