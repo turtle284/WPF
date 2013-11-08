@@ -9,6 +9,13 @@ var fleet = prompt('How many vehicles are in your fleet');
 var vehicles = new Array();
 
 //Code prompts user for the type of vehicle in the fleet and builds an array
+function vehicleModel(n){
+	for (i=0; i<n; i++){
+		vehicles[i] = prompt('What type of vehicle is it? Truck or Reefer?');
+	};
+};
+//This will run for each car in your fleet
+vehicleModel(fleet);
 
 //Prompt asking how many barrels of oil are currently instock.
 var barrels = prompt('How many barrels of oil do you currently have?');
