@@ -12,8 +12,10 @@ var kids = prompt('How many kids are there?');
 var pets = prompt('how many pets are there?');
 
 //Set the amount of people eating buns
+var bunEaters = parseInt(adults);
 
 //Set the amount of people eating hotdogs
+var hDEaters = parseInt(adults) + parseInt(kids) + parseInt(pets);
 
 //Find out the lowest amount of packs of buns needed to use up the packs with no extras
 
