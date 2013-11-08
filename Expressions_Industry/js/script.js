@@ -11,6 +11,7 @@ var vehicles = new Array();
 //Code prompts user for the type of vehicle in the fleet and builds an array
 function vehicleModel(n){
 	for (i=0; i<n; i++){
+//creates a loop that lasts for the size of the fleet
 		vehicles[i] = prompt('What type of vehicle is it? Truck or Reefer?');
 	};
 };
@@ -33,6 +34,7 @@ var patReefer = /reefer/i;
 
 //Loop through the array and count how many of each type of vehicle there is
 for (i=0; i<vehicles.length; i++){
+//Matches which type you entered and counts them
 	if (vehicles[i].match(patTruck) != null){
 		truck+=1;
 	}

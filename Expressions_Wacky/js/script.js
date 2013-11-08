@@ -39,6 +39,7 @@ while (x<1){
 var bunsNeeded = ((minHDs*8*count)/hDEaters)*bunEaters;
 //Determine if it is divisible by the lowest amount of hot dog buns needed.
 if (bunsNeeded%(minBuns*10)==0){
+//If the amount of hot dogs buns used can be evenly divided by the minbuns
 	x=1;
 //Print Results
 	console.log('You need ' + (minHDs*count) + ' packs of hot dogs, and ' + (bunsNeeded/10) + ' packs of buns.');
