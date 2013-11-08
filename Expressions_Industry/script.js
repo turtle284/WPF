@@ -22,6 +22,10 @@ var barrels = prompt('How many barrels of oil do you currently have?');
 
 //Each barrel hold 10gallons.  You need to convert that to Quarts
 
+//set patterns to identify each
+
+//Loop through the array and count how many of each type of vehicle there is
+
 //Calculate the total amount of oil needed for the fleet (in quarts).  Trucks use 40qtrs reefers use 35.
 
 //Subtract the amount of oil you currently have
