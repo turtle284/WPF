@@ -18,8 +18,16 @@ var bunEaters = parseInt(adults);
 var hDEaters = parseInt(adults) + parseInt(kids) + parseInt(pets);
 
 //Find out the lowest amount of packs of buns needed to use up the packs with no extras
+var minBuns = 1;
+while ((minBuns*10)%bunEaters != 0){
+	minBuns++;
+};
 
 //Find out the lowest amount of packs of hot dogs needed to use up the packs with no extras
+var minHDs = 1;
+while ((minHDs*8)%hDEaters != 0){
+	minHDs++;
+};
 
 //Calculate the amount of buns used
 
