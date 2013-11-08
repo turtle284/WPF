@@ -6,6 +6,9 @@
 var fleet = prompt('How many vehicles are in your fleet');
 
 //Create an array that will hold your fleet info
+var vehicles = new Array();
+
+//Code prompts user for the type of vehicle in the fleet and builds an array
 
 //Prompt asking how many barrels of oil are currently instock.
 var barrels = prompt('How many barrels of oil do you currently have?');
