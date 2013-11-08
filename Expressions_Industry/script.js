@@ -54,3 +54,9 @@ var order = Math.ceil(total/40);
 
 
 //Print out results to the console
+if (order<0){
+	console.log('You do not need any barrels.');
+}
+else{
+	console.log('You need ' + order + ' barrels of oil.');
+};
