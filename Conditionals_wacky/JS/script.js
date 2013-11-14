@@ -33,3 +33,7 @@ feet = miles * 5280;
 		case 'Hobbit':
 			steps = feet / .3; 
 			break;
+//If type is Dwarf
+		case 'Dwarf':
+			steps = feet / .5;
+			break;
