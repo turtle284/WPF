@@ -33,3 +33,14 @@ if ( year == '' || year == null || year == undefined){
 
 //Create a new conditional to determine the deductible
 if (year < 1989){
+//If the policy was issued before 1989 there is a $5k deductible
+	deductible = 5000;
+}
+else if (year >= 1989 && year <= 1999){
+//if the policy was issued between 1989 and 2000 then there is a $2,500 deductible
+	deductible = 2500;
+}
+else {
+//if the policy was issued after 1999 then there is a $500 deductible
+	deductible = 500;
+};
