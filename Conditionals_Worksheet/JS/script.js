@@ -18,4 +18,6 @@ console.log('The temperature is ' + calc + ' degrees Celsius.');
 }
 else{
 //The calculation if it is Celsius
+var calc = (((unit*9)/5)+32);
+console.log('The temperature is ' + calc + ' degrees Fahrenheit.');
 };
