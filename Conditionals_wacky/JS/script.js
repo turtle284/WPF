@@ -10,3 +10,8 @@ var steps =0;
 
 //set the distance for the Journey
 miles = prompt('How far do you need to travel in miles');
+
+//Validate that a value was entered
+if ( miles == '' || miles == null || miles == undefined){
+	alert('Please enter a distance');
+};
