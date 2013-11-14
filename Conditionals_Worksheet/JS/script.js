@@ -78,4 +78,16 @@ else {
 	console.log('You have a ' + percent + '%, which means you have earned a F in the class!');
 };
 
+//Check the Login
+
+//Enter Givens
+
+//Enter the correct username and password.  Password is case sensitive
+
+//Print results to the console
+//Check the username
+
+//Check the password
+	
+
 	
