@@ -41,5 +41,8 @@ var have = tankSize*guage/100;
 if (have>=need){
 	console.log('Yes, you can make it without stopping for gas!');
 }
+else{
 //If you don't
+	console.log('You only have ' + have +' gallons of gas in your tank, better get gas now while you can!');
+};
 	
