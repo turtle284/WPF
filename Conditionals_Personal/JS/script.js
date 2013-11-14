@@ -21,6 +21,8 @@ else{
 	tip = prompt('What percentage do you want to tip?')
 };
 
-//divide the bill by the amount of people
+//Sum the bill and tip
+var total = parseInt(bill) + parseInt(bill*(tip/100));
+
 
 //Print results to console
