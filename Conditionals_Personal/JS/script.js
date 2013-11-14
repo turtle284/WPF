@@ -6,6 +6,7 @@ var people = 0;
 var tip = 0;
 
 //Given Enter the amount of the bill
+bill = prompt('How much is your bill?');
 
 //Given Enter the amount of people in your party
 
