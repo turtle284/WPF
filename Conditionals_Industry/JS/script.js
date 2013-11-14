@@ -67,3 +67,8 @@ else{
 		case 'Medical':
 			console.log('Your damages exceed your deductible.  We will pay you 70% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
 			break;
+//If it is none of the above
+		default:
+			console.log('That type of accident is not covered by your policy');
+	}
+};
