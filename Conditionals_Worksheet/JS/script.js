@@ -49,7 +49,7 @@ else{
 //Grade Letter Calculator
 
 //Enter the givens
-
+var percent = 79;
 
 //Print results to the console
 //Determine the equivalent letter grade
