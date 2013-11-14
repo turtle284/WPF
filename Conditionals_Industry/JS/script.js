@@ -9,3 +9,8 @@ var deductible = 0;
 
 //Enter given on the type of accident
 var type = prompt('What type of accident occurred? (Personal, Auto, or Medical)');
+
+//Validate that a value was entered
+if ( type == '' || type == null || type == undefined){
+	alert('Please enter a type');
+};
