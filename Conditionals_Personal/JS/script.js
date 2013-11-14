@@ -18,6 +18,8 @@ if (people >= 6){
 }
 else{
 //If the party is less than 6 prompt asking for the tip amount
+	tip = prompt('What percentage do you want to tip?')
+};
 
 //divide the bill by the amount of people
 
