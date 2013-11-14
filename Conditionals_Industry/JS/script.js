@@ -63,3 +63,7 @@ else{
 		case 'Personal':
 			console.log('Your damages exceed your deductible.  We will pay you 80% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
 			break;
+//If type is Medical
+		case 'Medical':
+			console.log('Your damages exceed your deductible.  We will pay you 70% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
+			break;
