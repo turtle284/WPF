@@ -30,3 +30,6 @@ var year = prompt('What year was the policy issued?');
 if ( year == '' || year == null || year == undefined){
 	alert('Please enter an amount');
 };
+
+//Create a new conditional to determine the deductible
+if (year < 1989){
