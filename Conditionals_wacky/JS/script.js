@@ -15,3 +15,6 @@ miles = prompt('How far do you need to travel in miles');
 if ( miles == '' || miles == null || miles == undefined){
 	alert('Please enter a distance');
 };
+
+//Set the type of creature on a journey
+type = prompt('What type of Creature is on the Journey? (Hobbit, Dwarf, Elf, or Ogre)');
