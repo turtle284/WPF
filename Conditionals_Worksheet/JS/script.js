@@ -85,6 +85,8 @@ var userLogin = "Steve75";
 var userPassword = "n0saces";
 
 //Enter the correct username and password.  Password is case sensitive
+var correctLogin = "Steve75";
+var correctPassword = "n0spaces";
 
 //Print results to the console
 //Check the username
