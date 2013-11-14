@@ -45,4 +45,13 @@ else{
 //If you don't
 	console.log('You only have ' + have +' gallons of gas in your tank, better get gas now while you can!');
 };
+
+//Grade Letter Calculator
+
+//Enter the givens
+
+
+//Print results to the console
+//Determine the equivalent letter grade
+
 	
