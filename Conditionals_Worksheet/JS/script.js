@@ -103,4 +103,37 @@ else {
 	console.log('User not found. Try again.');
 };
 
-	
+//Tire Pressure I
+
+//Enter the Givens (Array is setup front left, front right, back left, back right)
+var pressure = [ 20, 21, 22, 22];
+
+//Print results to console
+//Compare the front two tires and the back two tires
+if (pressure[0]==pressure[1] && pressure[2]==pressure[3]){
+	console.log('The tires pass spec!');
+}
+else {
+	console.log('Get your tires checked out!')
+};
+
+//Movie Ticket Price
+
+//Enter the Givens
+var age = 40;
+var movieTime =15;
+
+//Print results to the consoe
+//Compare the age
+if (age >= 55 || age < 10){
+	console.log('The ticket price is $7.00');
+}
+else{
+//Compare the time
+	if (movieTime > 14 && movieTime < 17){
+		console.log('The ticket price is $7.00');
+	}
+	else {
+		console.log('The ticket price is $12.00');
+	}
+};
