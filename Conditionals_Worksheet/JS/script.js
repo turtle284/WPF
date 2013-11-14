@@ -25,6 +25,10 @@ console.log('The temperature is ' + calc + ' degrees Fahrenheit.');
 //Last Chance for Gas!
 
 //Enter the givens
+var mpg = 32;
+var tankSize = 20;
+var guage = 5;
+var distance = 200;
 
 //Calculate the amount of gas you need
 
