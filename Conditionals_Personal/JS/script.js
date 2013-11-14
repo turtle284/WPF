@@ -28,3 +28,4 @@ var total = parseInt(bill) + parseInt(bill*(tip/100));
 var share = total / people;
 
 //Print results to console
+console.log('Your total bill with gratuity was $' + total + '.  Your share is $' + share + '.');
