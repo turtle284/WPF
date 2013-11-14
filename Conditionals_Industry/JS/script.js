@@ -22,3 +22,6 @@ var damage = prompt('What is the total amount of damage?');
 if ( damage == '' || damage == null || damage == undefined){
 	alert('Please enter an amount');
 };
+
+//Enter the year the policy was issued
+var year = prompt('What year was the policy issued?');
