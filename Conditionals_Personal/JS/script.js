@@ -1,6 +1,9 @@
 //Steve Swayngim 11/12/2013 Personal Conditionals
 
 //define the variables
+var bill = 0;
+var people = 0;
+var tip = 0;
 
 //Given Enter the amount of the bill
 
