@@ -41,3 +41,8 @@ feet = miles * 5280;
 		case 'Elf':
 			steps = feet / 1;
 			break;
+//If type is Ogre
+		case 'Ogre':
+			steps = feet / 1.5;
+			break;
+	};
