@@ -59,3 +59,7 @@ else{
 		case 'Auto':
 			console.log('Your damages exceed your deductible.  We will pay you 90% of the difference in the amount of $' + ((damage-deductible)*.9) + '.'); 
 			break;
+//If type is Personal
+		case 'Personal':
+			console.log('Your damages exceed your deductible.  We will pay you 80% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
+			break;
