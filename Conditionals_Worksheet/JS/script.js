@@ -34,6 +34,7 @@ var distance = 200;
 var need = distance/mpg;
 
 //Calculate the amount of gas you have
+var have = tankSize*guage/100;
 
 //Print results to console
 //If gas you have enough gas
