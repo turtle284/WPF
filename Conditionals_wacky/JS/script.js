@@ -23,3 +23,6 @@ type = prompt('What type of Creature is on the Journey? (Hobbit, Dwarf, Elf, or 
 if ( type == '' || type == null || type == undefined){
 	alert('Please enter a type');
 };
+
+//Convert miles to feet
+feet = miles * 5280;
