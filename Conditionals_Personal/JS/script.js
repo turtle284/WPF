@@ -12,7 +12,7 @@ bill = prompt('How much is your bill?');
 var people = prompt('How many people are in your party?');
 
 //Create a conditional to see if the party is greater than 6
-
+if (people >= 6){
 //If the party is greater than 6 tip is automatically 18 percent
 
 //If the party is less than 6 prompt asking for the tip amount
