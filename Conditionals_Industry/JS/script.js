@@ -54,3 +54,4 @@ if(damage < deductible){
 else{
 //If the damage is more
 //Create a swith to determine what is the retention and message
+	switch(type){
