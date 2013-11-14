@@ -1,4 +1,4 @@
-//Steve Swayngim 11/12/2013 Personal Conditionals
+//Steve Swayngim 11/12/2013 Conditionals Personal
 
 //define the variables
 var bill = 0;
