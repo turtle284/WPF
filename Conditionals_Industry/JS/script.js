@@ -25,3 +25,8 @@ if ( damage == '' || damage == null || damage == undefined){
 
 //Enter the year the policy was issued
 var year = prompt('What year was the policy issued?');
+
+//Validate that a value was entered
+if ( year == '' || year == null || year == undefined){
+	alert('Please enter an amount');
+};
