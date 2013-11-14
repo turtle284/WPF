@@ -92,7 +92,12 @@ var correctPassword = "n0spaces";
 //Check the username
 if (userLogin == correctLogin){
 //Check the password
-
+	if (userPassword == correctPassword){
+		console.log('Welcome, ' + userLogin + '!');
+	}
+	else {
+		console.log('Password does not match our records.');
+	}
 }
 else {
 	console.log('User not found. Try again.');
