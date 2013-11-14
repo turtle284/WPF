@@ -11,7 +11,8 @@ var degree = temp.slice((length-1),length);
 var unit = parseInt(temp.slice(0,(length-1)));
 
 //Print results to the console
-
+if (degree == 'F'){
 //The calculation if it is Fahrenheit
 
 //The calculation if it is Celsius
+};
