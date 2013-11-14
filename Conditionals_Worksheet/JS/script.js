@@ -90,8 +90,12 @@ var correctPassword = "n0spaces";
 
 //Print results to the console
 //Check the username
-
+if (userLogin == correctLogin){
 //Check the password
-	
+
+}
+else {
+	console.log('User not found. Try again.');
+};
 
 	
