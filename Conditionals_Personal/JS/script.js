@@ -8,6 +8,11 @@ var tip = 0;
 //Given Enter the amount of the bill
 bill = prompt('How much is your bill?');
 
+//Validate that a value was entered
+if ( bill == '' || bill == null || bill == undefined){
+	alert('Please enter an amount');
+};
+
 //Given Enter the amount of people in your party
 var people = prompt('How many people are in your party?');
 
