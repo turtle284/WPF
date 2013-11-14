@@ -18,3 +18,8 @@ if ( miles == '' || miles == null || miles == undefined){
 
 //Set the type of creature on a journey
 type = prompt('What type of Creature is on the Journey? (Hobbit, Dwarf, Elf, or Ogre)');
+
+//Validate that a value was entered
+if ( type == '' || type == null || type == undefined){
+	alert('Please enter a type');
+};
