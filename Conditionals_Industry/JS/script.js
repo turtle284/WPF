@@ -6,3 +6,6 @@
 var type ="";
 var damage = 0;
 var deductible = 0;
+
+//Enter given on the type of accident
+var type = prompt('What type of accident occurred? (Personal, Auto, or Medical)');
