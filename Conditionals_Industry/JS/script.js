@@ -56,19 +56,19 @@ else{
 //Create a swith to determine what is the retention and message
 	switch(type){
 //If type is Auto
-		case 'Auto':
-			console.log('Your damages exceed your deductible.  We will pay you 90% of the difference in the amount of $' + ((damage-deductible)*.9) + '.'); 
-			break;
+	case 'Auto':
+		console.log('Your damages exceed your deductible.  We will pay you 90% of the difference in the amount of $' + ((damage-deductible)*.9) + '.'); 
+		break;
 //If type is Personal
-		case 'Personal':
-			console.log('Your damages exceed your deductible.  We will pay you 80% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
-			break;
+	case 'Personal':
+		console.log('Your damages exceed your deductible.  We will pay you 80% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
+		break;
 //If type is Medical
-		case 'Medical':
-			console.log('Your damages exceed your deductible.  We will pay you 70% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
-			break;
+	case 'Medical':
+		console.log('Your damages exceed your deductible.  We will pay you 70% of the difference in the amount of $' + ((damage-deductible)*.8) + '.'); 
+		break;
 //If it is none of the above
-		default:
-			console.log('That type of accident is not covered by your policy');
+	default:
+		console.log('That type of accident is not covered by your policy');
 	}
 };
