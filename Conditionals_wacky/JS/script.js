@@ -37,3 +37,7 @@ feet = miles * 5280;
 		case 'Dwarf':
 			steps = feet / .5;
 			break;
+//If type is Elf
+		case 'Elf':
+			steps = feet / 1;
+			break;
