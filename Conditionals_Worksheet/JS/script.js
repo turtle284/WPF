@@ -31,7 +31,7 @@ var guage = 5;
 var distance = 200;
 
 //Calculate the amount of gas you need
-
+var need = distance/mpg;
 
 //Calculate the amount of gas you have
 
