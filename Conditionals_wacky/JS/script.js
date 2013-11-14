@@ -46,5 +46,6 @@ switch(type){
 		steps = feet / 6;
 		break;
 };
-	
+
+//Print results to console	
 console.log('It take a ' + type + " " + steps + ' steps to walk ' + miles + ' miles.');
