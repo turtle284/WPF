@@ -17,3 +17,8 @@ if ( type == '' || type == null || type == undefined){
 
 //Enter the amount of damage
 var damage = prompt('What is the total amount of damage?');
+
+//Validate that a value was entered
+if ( damage == '' || damage == null || damage == undefined){
+	alert('Please enter an amount');
+};
