@@ -29,3 +29,7 @@ feet = miles * 5280;
 
 //Create a swith to determine the size of their feet and calculate the steps
 	switch(type){
+//If type is Hobbit
+		case 'Hobbit':
+			steps = feet / .3; 
+			break;
