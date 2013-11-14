@@ -16,6 +16,11 @@ if ( bill == '' || bill == null || bill == undefined){
 //Given Enter the amount of people in your party
 var people = prompt('How many people are in your party?');
 
+//Validate that a value was entered
+if ( people == '' || people == null || people == undefined){
+	alert('Please enter a value');
+}
+
 //Create a conditional to see if the party is greater than 6
 if (people >= 6){
 //If the party is greater than 6 tip is automatically 18 percent
