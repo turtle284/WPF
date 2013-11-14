@@ -44,3 +44,10 @@ else {
 //if the policy was issued after 1999 then there is a $500 deductible
 	deductible = 500;
 };
+
+if(damage < deductible){
+//Create a new conditional to determine if the damage is greater than the deductible
+//If the damage is less 
+//Print Message to the console
+	console.log('The damage does not exceed the deductible');
+}
