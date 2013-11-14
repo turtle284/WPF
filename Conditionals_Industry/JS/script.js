@@ -55,3 +55,7 @@ else{
 //If the damage is more
 //Create a swith to determine what is the retention and message
 	switch(type){
+//If type is Auto
+		case 'Auto':
+			console.log('Your damages exceed your deductible.  We will pay you 90% of the difference in the amount of $' + ((damage-deductible)*.9) + '.'); 
+			break;
