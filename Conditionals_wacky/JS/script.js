@@ -31,19 +31,19 @@ feet = miles * 5280;
 switch(type){
 //If type is Hobbit
 	case 'Hobbit':
-		steps = feet / .3; 
+		steps = feet / 1; 
 		break;
 //If type is Dwarf
 	case 'Dwarf':
-		steps = feet / .5;
+		steps = feet / 1.5;
 		break;
 //If type is Elf
 	case 'Elf':
-		steps = feet / 1;
+		steps = feet / 3;
 		break;
 //If type is Ogre
 	case 'Ogre':
-		steps = feet / 1.5;
+		steps = feet / 6;
 		break;
 };
 	
