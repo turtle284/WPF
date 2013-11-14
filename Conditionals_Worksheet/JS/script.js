@@ -21,3 +21,18 @@ else{
 var calc = (((unit*9)/5)+32);
 console.log('The temperature is ' + calc + ' degrees Fahrenheit.');
 };
+
+//Last Chance for Gas!
+
+//Enter the givens
+
+//Calculate the amount of gas you need
+
+
+//Calculate the amount of gas you have
+
+//Print results to console
+//If gas you have enough gas
+
+//If you don't
+	
