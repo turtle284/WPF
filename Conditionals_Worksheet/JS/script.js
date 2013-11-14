@@ -81,6 +81,8 @@ else {
 //Check the Login
 
 //Enter Givens
+var userLogin = "Steve75";
+var userPassword = "n0saces";
 
 //Enter the correct username and password.  Password is case sensitive
 
