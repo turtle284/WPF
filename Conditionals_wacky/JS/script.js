@@ -7,3 +7,6 @@ var miles = 0;
 var type = "";
 var feet = 0;
 var steps =0;
+
+//set the distance for the Journey
+miles = prompt('How far do you need to travel in miles');
