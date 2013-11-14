@@ -14,3 +14,6 @@ var type = prompt('What type of accident occurred? (Personal, Auto, or Medical)'
 if ( type == '' || type == null || type == undefined){
 	alert('Please enter a type');
 };
+
+//Enter the amount of damage
+var damage = prompt('What is the total amount of damage?');
