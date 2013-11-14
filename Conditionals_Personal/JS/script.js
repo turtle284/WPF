@@ -37,7 +37,7 @@ if ( tip == '' || tip == null || tip == undefined){
 };
 
 //Sum the bill and tip
-var total = (bill) + (bill*(tip/100));
+var total = parseInt(bill) + parseInt(bill*(tip/100));
 
 //Divide it by the amount of people
 var share = total / people;
