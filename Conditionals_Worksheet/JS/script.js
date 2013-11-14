@@ -13,6 +13,9 @@ var unit = parseInt(temp.slice(0,(length-1)));
 //Print results to the console
 if (degree == 'F'){
 //The calculation if it is Fahrenheit
-
+var calc = (((unit-32)/9)*5);
+console.log('The temperature is ' + calc + ' degrees Celsius.');
+}
+else{
 //The calculation if it is Celsius
 };
