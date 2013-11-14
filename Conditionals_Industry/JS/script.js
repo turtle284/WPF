@@ -51,6 +51,7 @@ if(damage < deductible){
 //Print Message to the console
 	console.log('The damage does not exceed the deductible');
 }
+
 else{
 //If the damage is more
 //Create a swith to determine what is the retention and message
