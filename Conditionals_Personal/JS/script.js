@@ -34,7 +34,7 @@ else{
 //Validate that a value was entered
 if ( tip == '' || tip == null || tip == undefined){
 	alert('Please enter a tip percentage');
-}
+};
 
 //Sum the bill and tip
 var total = parseInt(bill) + parseInt(bill*(tip/100));
