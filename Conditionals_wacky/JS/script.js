@@ -26,3 +26,6 @@ if ( type == '' || type == null || type == undefined){
 
 //Convert miles to feet
 feet = miles * 5280;
+
+//Create a swith to determine the size of their feet and calculate the steps
+	switch(type){
