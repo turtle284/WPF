@@ -28,23 +28,23 @@ if ( type == '' || type == null || type == undefined){
 feet = miles * 5280;
 
 //Create a swith to determine the size of their feet and calculate the steps
-	switch(type){
+switch(type){
 //If type is Hobbit
-		case 'Hobbit':
-			steps = feet / .3; 
-			break;
+	case 'Hobbit':
+		steps = feet / .3; 
+		break;
 //If type is Dwarf
-		case 'Dwarf':
-			steps = feet / .5;
-			break;
+	case 'Dwarf':
+		steps = feet / .5;
+		break;
 //If type is Elf
-		case 'Elf':
-			steps = feet / 1;
-			break;
+	case 'Elf':
+		steps = feet / 1;
+		break;
 //If type is Ogre
-		case 'Ogre':
-			steps = feet / 1.5;
-			break;
-	};
+	case 'Ogre':
+		steps = feet / 1.5;
+		break;
+};
 	
 console.log('It take a ' + type + " " + steps + ' steps to walk ' + miles + ' miles.');
