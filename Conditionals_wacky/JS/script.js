@@ -46,3 +46,5 @@ feet = miles * 5280;
 			steps = feet / 1.5;
 			break;
 	};
+	
+	console.log('It take a ' + type + " " + steps + ' steps to walk ' + miles + ' miles.');
