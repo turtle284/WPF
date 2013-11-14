@@ -24,5 +24,7 @@ else{
 //Sum the bill and tip
 var total = parseInt(bill) + parseInt(bill*(tip/100));
 
+//Divide it by the amount of people
+var share = total / people;
 
 //Print results to console
