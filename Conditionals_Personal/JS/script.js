@@ -9,6 +9,7 @@ var tip = 0;
 bill = prompt('How much is your bill?');
 
 //Given Enter the amount of people in your party
+var people = prompt('How many people are in your party?');
 
 //Create a conditional to see if the party is greater than 6
 
