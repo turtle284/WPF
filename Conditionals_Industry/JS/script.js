@@ -13,24 +13,24 @@ var type = prompt('What type of accident occurred? (Personal, Auto, or Medical)'
 //Validate that a value was entered
 if ( type == '' || type == null || type == undefined){
 	alert('Please enter a type');
-};
-
+}
+else{
 //Enter the amount of damage
 var damage = prompt('What is the total amount of damage?');
 
 //Validate that a value was entered
 if ( damage == '' || damage == null || damage == undefined){
 	alert('Please enter an amount');
-};
-
+}
+else{
 //Enter the year the policy was issued
 var year = prompt('What year was the policy issued?');
 
 //Validate that a value was entered
 if ( year == '' || year == null || year == undefined){
 	alert('Please enter an amount');
-};
-
+}
+else{
 //Create a new conditional to determine the deductible
 if (year < 1989){
 //If the policy was issued before 1989 there is a $5k deductible
@@ -72,4 +72,8 @@ else{
 	default:
 		console.log('That type of accident is not covered by your policy');
 	}
+};
+
+};
+};
 };

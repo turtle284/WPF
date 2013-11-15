@@ -14,16 +14,16 @@ miles = prompt('How far do you need to travel in miles');
 //Validate that a value was entered
 if ( miles == '' || miles == null || miles == undefined){
 	alert('Please enter a distance');
-};
-
+}
+else{
 //Set the type of creature on a journey
 type = prompt('What type of Creature is on the Journey? (Hobbit, Dwarf, Elf, or Ogre)');
 
 //Validate that a value was entered
 if ( type == '' || type == null || type == undefined){
 	alert('Please enter a type');
-};
-
+}
+else{
 //Convert miles to feet
 feet = miles * 5280;
 
@@ -49,3 +49,6 @@ switch(type){
 
 //Print results to console	
 console.log('It take a ' + type + " " + steps + ' steps to walk ' + miles + ' miles.');
+
+};
+};

@@ -11,16 +11,16 @@ bill = prompt('How much is your bill?');
 //Validate that a value was entered
 if ( bill == '' || bill == null || bill == undefined){
 	alert('Please enter an amount');
-};
-
+}
+else{
 //Given Enter the amount of people in your party
 var people = prompt('How many people are in your party?');
 
 //Validate that a value was entered
 if ( people == '' || people == null || people == undefined){
 	alert('Please enter a value');
-};
-
+}
+else{
 //Create a conditional to see if the party is greater than 6
 if (people >= 6){
 //If the party is greater than 6 tip is automatically 18 percent
@@ -34,8 +34,8 @@ else{
 //Validate that a value was entered
 if ( tip == '' || tip == null || tip == undefined){
 	alert('Please enter a tip percentage');
-};
-
+}
+else{
 //Sum the bill and tip
 var total = parseInt(bill) + parseInt(bill*(tip/100));
 
@@ -44,3 +44,6 @@ var share = total / people;
 
 //Print results to console
 console.log('Your total bill with gratuity was $' + total + '.  Your share is $' + share + '.');
+};
+};
+};
