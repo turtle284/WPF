@@ -12,3 +12,7 @@ function validate(array, card){
 	//loop through the array
 		for (i=0; i<array.length; i++){
 		//compare the enter value to the array
+		if(array[i] === card){
+			result = 'This is your card';
+			};
+};
