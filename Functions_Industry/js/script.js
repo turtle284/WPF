@@ -21,3 +21,5 @@ return result;
 };
 //call the function
 var output = validate(myCards,checkCard);
+//print results to the console
+console.log(output);
