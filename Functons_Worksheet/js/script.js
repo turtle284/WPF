@@ -13,3 +13,5 @@ function calculateCircumference(r){
 console.log('The circumference of the circle is ' + calculateCircumference(radius));
 
 //Stung!
+
+//Set givens
