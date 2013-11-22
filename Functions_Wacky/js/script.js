@@ -22,3 +22,4 @@ var waterLength = (water/2)/7;
 
 //calculate how long the food will last in weeks
 //you eat 3 bags of chips per day
+var foodLength = (food/3)/7;
