@@ -37,3 +37,6 @@ return result;
 
 //call function
 var output = diet(currentWeight, food);
+
+//print to console
+console.log(output);
