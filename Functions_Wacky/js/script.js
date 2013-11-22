@@ -27,3 +27,4 @@ var foodLength = (food/3)/7;
 //calculate how long the ammo will last in weeks
 //you use a bullet a day
 var ammoLength = ammo/7;
+//determine the min of the three lengths of time
