@@ -32,3 +32,5 @@ var shortestTime = Math.min(waterLength, foodLength, ammoLength);
 //return a value
 return shortestTime
 };
+//call function
+var survival = timeLength(chips, bullets, gallons);
