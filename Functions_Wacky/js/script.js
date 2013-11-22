@@ -12,3 +12,5 @@ chips = prompt('How many bags of chips do you have?');
 bullets = prompt('How many bullets do you have?');
 
 gallons = prompt('How many gallons of water fo you have?');
+
+//start anonymous function 
