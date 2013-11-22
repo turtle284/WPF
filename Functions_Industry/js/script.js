@@ -19,3 +19,5 @@ function validate(array, card){
 //return a value
 return result;
 };
+//call the function
+var output = validate(myCards,checkCard);
