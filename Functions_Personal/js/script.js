@@ -16,3 +16,5 @@ var food = prompt('How much food do you eat in pounds?');
 function diet(weight, food){
 //calculate how much food you need to eat 1/10th of your body weight
 var foodNeed = weight * .1;
+//set a variable for the results
+var result = '';
