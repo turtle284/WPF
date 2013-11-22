@@ -7,3 +7,4 @@ var checkCard ='';
 //enter the prompts
 var checkCard = prompt('Please enter your 16 digit card number.');
 //begin a named function
+function validate(array, card){
