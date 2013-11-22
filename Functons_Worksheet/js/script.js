@@ -10,3 +10,4 @@ function calculateCircumference(r){
 };
 
 //Print to console log
+console.log('The circumference of the circle is ' + calculateCircumference(radius));
