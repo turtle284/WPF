@@ -4,3 +4,4 @@
 var myCards = ['0000000000000000','1234567887654321','1111111111111111'];
 
 var checkCard ='';
+//enter the prompts
