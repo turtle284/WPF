@@ -16,3 +16,4 @@ function validate(array, card){
 			result = 'This is your card';
 			};
 };
+//return a value
