@@ -18,3 +18,4 @@ function validate(array, card){
 };
 //return a value
 return result;
+};
