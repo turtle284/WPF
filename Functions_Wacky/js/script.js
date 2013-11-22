@@ -15,3 +15,6 @@ gallons = prompt('How many gallons of water fo you have?');
 
 //start anonymous function 
 var timeLength = function(food, ammo, water){
+
+//calculate how long the water will last in weeks
+//you use 2 gallons of water per day
