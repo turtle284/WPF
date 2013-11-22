@@ -28,3 +28,4 @@ var foodLength = (food/3)/7;
 //you use a bullet a day
 var ammoLength = ammo/7;
 //determine the min of the three lengths of time
+var shortestTime = Math.min(waterLength, foodLength, ammoLength);
