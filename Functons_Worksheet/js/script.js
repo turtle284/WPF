@@ -21,3 +21,5 @@ var pounds = 198;
 function calculateStings(lbs){
 	return ( lbs * 8.666666667);
 };
+
+//print to console
