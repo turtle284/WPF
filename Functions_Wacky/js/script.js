@@ -5,3 +5,5 @@
 var chips = 0;
 var bullets = 0;
 var gallons = 0;
+
+//enter prompts
