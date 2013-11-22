@@ -2,3 +2,7 @@
 //Calculate how much food to eat
 
 //define the variables
+
+var currentWeight = 0;
+
+var food = 0;
