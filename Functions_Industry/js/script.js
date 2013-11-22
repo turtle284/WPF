@@ -11,3 +11,4 @@ function validate(array, card){
 	var result = 'This is not your card';
 	//loop through the array
 		for (i=0; i<array.length; i++){
+		//compare the enter value to the array
