@@ -9,3 +9,4 @@ var checkCard = prompt('Please enter your 16 digit card number.');
 //begin a named function
 function validate(array, card){
 	var result = 'This is not your card';
+	//loop through the array
