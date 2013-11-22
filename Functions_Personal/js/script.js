@@ -31,3 +31,7 @@ else {
 //if you eat the right amount
 	result = 'You are eating the right amount';
 };
+
+//return value
+return result;
+
