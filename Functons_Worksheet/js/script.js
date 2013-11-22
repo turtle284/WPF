@@ -16,3 +16,5 @@ console.log('The circumference of the circle is ' + calculateCircumference(radiu
 
 //Set givens
 var pounds = 198;
+
+//Formula to calculate the bee stings is 8.666666667*body weight (lbs is the only parameter)
