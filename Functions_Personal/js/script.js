@@ -18,3 +18,5 @@ function diet(weight, food){
 var foodNeed = weight * .1;
 //set a variable for the results
 var result = '';
+//compare to how much food you do eat
+if (food > foodNeed){
