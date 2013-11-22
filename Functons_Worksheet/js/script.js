@@ -15,3 +15,4 @@ console.log('The circumference of the circle is ' + calculateCircumference(radiu
 //Stung!
 
 //Set givens
+var pounds = 198;
