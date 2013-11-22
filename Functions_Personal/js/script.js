@@ -6,3 +6,5 @@
 var currentWeight = 0;
 
 var food = 0;
+
+//create the prompts
