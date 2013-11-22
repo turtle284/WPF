@@ -2,3 +2,6 @@
 //How long can you survive a zombie apocalypse
 
 //declare variables
+var chips = 0;
+var bullets = 0;
+var gallons = 0;
