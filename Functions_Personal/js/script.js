@@ -23,3 +23,7 @@ if (food > foodNeed){
 //if you eat too much
 	result = 'You need to eat less';
 }
+else if (food < foodNeed){
+//if you don't eat enough
+	result = 'You need to eat more';
+}
