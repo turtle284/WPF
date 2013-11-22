@@ -27,3 +27,7 @@ else if (food < foodNeed){
 //if you don't eat enough
 	result = 'You need to eat more';
 }
+else {
+//if you eat the right amount
+	result = 'You are eating the right amount';
+};
