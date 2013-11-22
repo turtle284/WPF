@@ -2,3 +2,4 @@
 //Circumference
 
 //Set the givens
+var radius = 4;
