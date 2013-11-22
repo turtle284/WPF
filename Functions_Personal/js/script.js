@@ -35,3 +35,5 @@ else {
 //return value
 return result;
 
+//call function
+var output = diet(currentWeight, food);
