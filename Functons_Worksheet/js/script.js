@@ -8,3 +8,5 @@ var radius = 4;
 function calculateCircumference(r){
 	return (2*Math.PI*r);
 };
+
+//Print to console log
