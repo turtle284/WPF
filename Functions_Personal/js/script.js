@@ -8,3 +8,6 @@ var currentWeight = 0;
 var food = 0;
 
 //create the prompts
+currentWeight = prompt('How much do you weigh in pounds?');
+
+var food = prompt('How much food do you eat in pounds?');
