@@ -11,3 +11,5 @@ var food = 0;
 currentWeight = prompt('How much do you weigh in pounds?');
 
 var food = prompt('How much food do you eat in pounds?');
+
+//begin a named function
