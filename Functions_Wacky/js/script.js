@@ -18,3 +18,4 @@ var timeLength = function(food, ammo, water){
 
 //calculate how long the water will last in weeks
 //you use 2 gallons of water per day
+var waterLength = (water/2)/7;
