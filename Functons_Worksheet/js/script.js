@@ -23,3 +23,4 @@ function calculateStings(lbs){
 };
 
 //print to console
+console.log('It takes ' + calculateStings(pounds) + ' bee stings to kill this animal.');
