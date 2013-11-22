@@ -3,3 +3,5 @@
 
 //Set the givens
 var radius = 4;
+
+//Formula for circumference is 2 * PI * r (r is the only parameter)
