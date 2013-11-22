@@ -34,3 +34,6 @@ return shortestTime
 };
 //call function
 var survival = timeLength(chips, bullets, gallons);
+
+//print results to console
+console.log('You will survive ' + survival + ' weeks.');
