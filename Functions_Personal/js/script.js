@@ -20,3 +20,6 @@ var foodNeed = weight * .1;
 var result = '';
 //compare to how much food you do eat
 if (food > foodNeed){
+//if you eat too much
+	result = 'You need to eat less';
+}
